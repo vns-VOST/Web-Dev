@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+.logo img {
+    width: 164px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Segoe UI";
+}
+
+.right ul {
+    display: flex;
+    gap: 34px;
+}
+
+.right ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.right ul li span {
+    padding: 0 5px;
+}
+
+.first {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 23px;
+    margin: 70px;
+    font-family: sans-serif;
+}
+
+.first span {
+    font-size: 40px;
+    font-family: 'Roboto Slab', serif;
+}
+
+section span img {
+    width: 82px;
+    margin: 0 23px;
+}
+
+.first p {
+    font-size: 23px;
+    font-family: 'Roboto Slab', serif;
+    color: rgba(62, 63, 63, 0.747);
+    width:50vw;
+    text-align: center;
+}
+
+
+
+.btn {
+    background: #00b6d1;
+    padding: 14px 16px;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-weight: 700;
+    
+    margin: 10px 0px 0px 0px;
+    cursor: pointer;
+}
+.btn a{
+    text-decoration: none;
+    color: rgb(247, 247, 247);
+}
+
+
+.flex {
+    display: flex;
+}
+
+.small {
+    font-size: 12px;
+}
+
+.second { 
+    max-width: 80vw;
+    margin: auto; 
+}
+
+.item {
+    padding: 25px 80px 25px 80px;
+    background: #4f9fc42f;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.item-lang{
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 36px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    gap:50px
+}
+
+.download :nth-child(2){
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+    color: rgb(59, 59, 59);
+}
+
+.download img{
+    padding: 0px 12px;
+}
+.download{
+    display: flex;
+    font-family: 'Roboto Slab', serif;
+    gap: 10px;
+    margin: 10px;
+    align-items: center;
+}
+.fixedlogo{
+
+    padding-left: 1vw;
+    position: fixed;
+}
+
+@media screen and (max-width: 1145px) {
+    .grid{ 
+        grid-template-columns: 1fr; 
+    }
+}
