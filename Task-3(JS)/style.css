@@ -1,0 +1,32 @@
+html, body {
+  /* height: 100%;
+  width: 100%; */
+  background-color: #80BCBD;
+  position: relative;
+}
+
+
+#joke{
+  color: #333;
+  font-size: 2em;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  display: flex;
+  padding-top: 10px;
+  margin: 10rem;
+  text-align: center;
+  justify-content: center;
+}
+.btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
+#Button{
+  background-color:#AAD9BB;
+  position: absolute;
+  font-size:20px;
+  margin:30px;
+  padding:10px;
+  border-radius: 25px;
+  border:2px solid #D5F0C1;
+}
